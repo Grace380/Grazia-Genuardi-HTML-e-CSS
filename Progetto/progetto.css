@@ -1,0 +1,571 @@
+@charset "UTF-8";
+
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+*{ box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+.clear{
+	clear:both;
+}
+
+body{
+	margin:0;
+    background-color:	#736F6E ;
+background-color: black;
+height: 100%;
+
+	}
+	header
+	{
+	position:relative;
+	height: 800px;
+	width: 1500px;
+  margin-left: -200px;
+	background-image:url(https://cdn.pixabay.com/photo/2016/11/29/06/18/home-office-1867761_960_720.jpg);
+	background-size:cover;
+	box-shadow:inset 0 -1px 5px rgba(0,0,0,0.6);
+	}
+
+.header p {
+color: black;
+}
+
+
+.main{
+	width:1000px;
+
+	margin: auto;
+	text-align: center;
+}
+.menu{
+	display: none;
+
+}
+
+.hamburgher{
+	text-align:center;
+	background-color:	#8BB381 ;
+	width:80%;
+	height: 100px;
+	position: fixed;
+	top: -50px;
+}
+.opzioni{
+	width:40%;
+	height:auto;
+	margin: auto;
+}
+.opzioni a{
+	text-decoration: none;
+	color: white;
+}
+.opzioni a:hover{
+	text-decoration: none;
+	color:	#8BB381 ;
+	background-color: white;
+}
+
+.hamb{
+	width: 100%;
+	height: 70px;
+	margin: auto;
+	padding-top:: 6px;
+}
+.hamb img{
+	//width:10%;
+	height: 100%;
+}
+#chiudi{
+	display: none;
+}
+
+.slide {
+
+}
+
+.slide img {
+
+}
+.titolo {
+width: 500px;
+border: 1px solid black;
+box-shadow: 5px 5px black;
+margin-left: 240px;
+margin-bottom:15px;
+background-image:url(../img/sfondomenu.jpg);
+}
+
+.titolo h1 {
+color: white;
+font-family: 'Ubuntu', sans-serif;
+
+}
+
+.contenitore{
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+	padding: 30px;
+	overflow: hidden;
+	text align: center;
+
+}
+
+.contenitore img {
+	width: 800px;
+	height: 500px;
+}
+
+.contenitore h1 {
+	font-size: 40px;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.contenitore h5 {
+	font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+text-align: justify;
+
+}
+
+.digital{
+	width: 1000px;
+	height: 400px;
+}
+
+.digital h3 {
+	font-size: 30px;
+}
+.immagine img {
+	width: 400px;
+
+}
+.immagine  {
+	width: 400px;
+	float: left;
+	margin-top: auto;
+}
+
+.digital-testo{
+	width: 500px;
+	float: right;
+	margin-top: auto;
+}
+.digital-testo h5{
+	width: 500px;
+	float: right;
+	text-align: justify;
+}
+
+
+.contatti p {
+	background-color: #d3d3d3;
+	font-family: -apple-system, Arial, sans-serif;
+}
+
+
+/*Inizia CSS del CF*/
+#fcf-form {
+    display:block;
+}
+
+.fcf-body {
+    margin: 0;
+		margin-left: 200px;
+    font-family: -apple-system, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    background-color: #d3d3d3;
+    padding: 30px;
+    padding-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    width: 600px;
+}
+
+.fcf-form-group {
+    margin-bottom: 1rem;
+}
+
+.fcf-input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.fcf-form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    outline: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fcf-form-control:focus {
+    border: 1px solid #313131;
+}
+
+select.fcf-form-control[size], select.fcf-form-control[multiple] {
+    height: auto;
+}
+
+textarea.fcf-form-control {
+    font-family: -apple-system, Arial, sans-serif;
+    height: auto;
+}
+
+label.fcf-label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.fcf-credit {
+    padding-top: 10px;
+    font-size: 0.9rem;
+    color: #545b62;
+}
+
+.fcf-credit a {
+    color: #545b62;
+    text-decoration: underline;
+}
+
+.fcf-credit a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.fcf-btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .fcf-btn {
+        transition: none;
+    }
+}
+
+.fcf-btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.fcf-btn:focus, .fcf-btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.fcf-btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.fcf-btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.fcf-btn-primary:focus, .fcf-btn-primary.focus {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+/*Finisce CSS cf*/
+
+
+
+
+h6 {
+	color: white;
+	font-size: 16px;
+}
+
+
+
+
+
+
+.testo{
+	width:100%;
+
+	margin: auto;
+	margin-bottom: 30px;
+	height: 50%;
+	border: 1px solid black;
+	box-shadow: 1px 2px black;
+
+}
+.testo p{
+	text-align: center;
+	color: black;
+}
+.galleria{
+	width:100%;
+ height:: auto;
+	text-align: center;
+	margin: auto;
+	padding: 0px;
+	margin-bottom: -20px;
+
+}
+.foto1{
+	width: 300px;
+	height:300px;
+	float: left;
+	padding:2px;
+	margin-top: 70px;
+	margin-left: 20px;
+	margin-bottom: -20px;
+
+
+}
+
+
+
+.galleria img{
+	width: 300px;
+	height:300px;
+	padding:0;
+}
+
+.footer{
+	width: 100%;
+	height: 100px;
+	background-image:url(../img/sfondomenu.jpg);
+	text-color:white;
+}
+.footer a{
+        text-decoration: none;
+		color: white;
+
+}
+/* Style all font awesome icons */
+.fa {
+ padding: 20px;
+ font-size: 30px;
+ width: 50px;
+ text-align: center;
+ text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+ opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+ background: #3B5998;
+ color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+ background: #55ACEE;
+ color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+ background: #ff1493;
+ color: white;
+}
+
+/* linkedin */
+.fa-linkedin {
+ background: #1e90ff;
+ color: white;
+}
+
+.contatti h2 {
+	font-size: 40px;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+p{
+    color: #554a50;;
+		background-color: #f0eeef;
+
+}
+
+.menu img {
+   width:200px;
+   float: left;
+   height:200px;}
+
+h3 {
+   color: white;
+	 }
+
+h1 {
+	font-size: 50px;
+	color: #e3dfe3;
+	font-family: 'Six Caps', sans-serif;
+
+}
+h2 {
+font-size: 40px;
+font-family: 'Six Caps', sans-serif;
+color: #554a50;
+}
+h4 {
+	color: white;
+	font-family: 'Six Caps', sans-serif;
+	font-size: 30px;
+}
+ h5 {
+	 color: white;
+	 	font-family: 'Six Caps', sans-serif;
+		font-size: 20px;
+ }
+.foto1 img:hover {
+transform: scale(1.2);
+}
+.foto2 img:hover {
+transform: scale(1.2);
+}
+
+.foto1 a {
+color: white;
+decoration: underline;}
+
+
+
+
+@media (min-width: 1200px){
+	.menu{
+		display: block;
+		background-image:url(../img/sfondomenu.jpg);
+		width:100%;
+		min-height: 100px;
+		text-align: center;
+		word-spacing: 20px;
+		padding: 50px;
+	}
+	.menu a{
+		text-decoration: none;
+		color: white;
+        padding-top: 70px;
+		font-size:30px;
+	}
+	.menu a:hover{
+		text-decoration: none;
+		color: #413839;
+		background-color: white;
+	}
+	.hamburgher{
+		display: none;
+	}
+
+	.slide{
+		display: block;
+		width: 100%;
+		height: 320px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+
+		overflow:hidden;
+	}
+	.alfa{
+		width: 1000px;
+		height:300px;
+		position: relative;
+		top:0;
+		left:0;
+	}
+	.beta{
+		width: 1000px;
+		height:300px;
+		position: relative;
+		top:-300px;
+		left:0;
+	}
+	.gamma{
+		width: 1000px;
+		height:300px;
+		position: relative;
+		top:-600px;
+		left:0;
+	}
+	.contenitore{
+		width: 1000px;
+		height: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		padding:0px;
+	}
+	.testo{
+		background-color: 	#413839;
+		text-align:center;
+		width:400px;
+		height:100%;
+
+	}
+	.galleria{
+
+		width:1000px;
+		height:700px;
+
+	}
+}
+.profilo {
+  width: 600px;
+
+  text-align: center;
+
+
+}
+.profilo img {
+  width: 1000px;
+  height: 600px;
+  justify-content: center;
+  z-index: -1;
+
+}
